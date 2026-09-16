@@ -1,0 +1,21 @@
+{
+  "contractVersion": 3,
+  "contentType": "video",
+  "moduleVersion": "1.0.0",
+  "moduleFamilyId": "cinejoy",
+  "moduleIdentity": "CineJoy Library",
+  "moduleIdentityNumber": 1,
+  "config": {
+    "baseUrl": "https://cinejoy.pk",
+    "runtime": {
+      "entry": "index.js",
+      "mode": "local"
+    },
+    "caps": {
+      "homeMaxResults": 20,
+      "maxResponseBytes": 5242880,
+      "timeoutMs": 10000,
+      "maxConcurrentRequests": 4
+    }
+  }
+}
